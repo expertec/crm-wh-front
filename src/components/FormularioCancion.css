@@ -1,0 +1,42 @@
+/* Inputs y TextAreas con texto grande */
+.big-input .ant-input,
+.big-input .ant-input-affix-wrapper,
+.big-input .ant-input-lg,
+.big-input .ant-input-textarea > textarea {
+  font-size: 1.4em !important;
+  line-height: 1.2 !important;
+}
+
+/* Selects con texto grande */
+.big-select .ant-select-selector,
+.big-select .ant-select-selection-placeholder,
+.big-select .ant-select-selection-item {
+  font-size: 1.4em !important;
+  line-height: 1.2 !important;
+}
+
+/* Opciones del dropdown */
+.big-select .ant-select-item-option-content {
+  font-size: 1.4em !important;
+  line-height: 1.2 !important;
+}
+
+/* Leyenda helper */
+.helper-text {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 16px;
+}
+.big-input {
+    font-size: 1.5rem;
+  }
+  
+  .big-select .ant-select-selector {
+    font-size: 1.5rem !important;
+  }
+  
+  .helper-text {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
